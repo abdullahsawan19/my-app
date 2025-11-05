@@ -60,7 +60,11 @@ const Card = (props) => {
       <div style={skillsContainer}>
         {props.skills.map((skill, index) => (
           <span key={index} style={skillStyle}>
-            {skill}
+            {skill.skill}
+            {skill.level ? ` (${skill.level})` : ""}
+            {skill.level === "beginner" ? (skill.emoji = " 🐣") : ""}
+            {skill.level === "Intermediate" ? (skill.emoji = " 👍") : ""}
+            {skill.level === "Advanced" ? (skill.emoji = " 👌") : ""}
           </span>
         ))}
       </div>

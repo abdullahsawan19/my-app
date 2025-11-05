@@ -8,13 +8,14 @@ function App() {
         image="/Card image.jpg"
         name="Abdullah Sawan"
         para="A passionate web developer with expertise in front-end and back-end technologies."
-        skills={["HTML", "CSS", "JavaScript", "React", "Node.js", "Express"]}
-      />
-      <Card
-        image="/Card image.jpg"
-        name="Abdullah Sawan"
-        para="A passionate web developer with expertise in front-end and back-end technologies."
-        skills={["HTML", "CSS", "JavaScript", "React", "Node.js", "Express"]}
+        skills={[
+          { skill: "HTML", level: "Advanced", emoji: "" },
+          { skill: "CSS", level: "Advanced", emoji: "" },
+          { skill: "JavaScript", level: "Intermediate", emoji: "" },
+          { skill: "React", level: "Intermediate", emoji: "" },
+          { skill: "Node.js", level: "beginner", emoji: "" },
+          { skill: "Express", level: "beginner", emoji: "" },
+        ]}
       />
     </div>
   );
