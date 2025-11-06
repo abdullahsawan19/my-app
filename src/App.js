@@ -16,6 +16,19 @@ function App() {
           { skill: "Node.js", level: "beginner", emoji: "" },
           { skill: "Express", level: "beginner", emoji: "" },
         ]}
+      />{" "}
+      <Card
+        image="/mohamed image.jpg"
+        name="Mohamed Ahmed"
+        para="A creative full-stack developer who loves building modern, responsive web applications."
+        skills={[
+          { skill: "HTML", level: "Advanced", emoji: "" },
+          { skill: "CSS", level: "Advanced", emoji: "" },
+          { skill: "JavaScript", level: "Intermediate", emoji: "" },
+          { skill: "React", level: "Intermediate", emoji: "" },
+          { skill: "Node.js", level: "beginner", emoji: "" },
+          { skill: "MongoDB", level: "beginner", emoji: "" },
+        ]}
       />
     </div>
   );
