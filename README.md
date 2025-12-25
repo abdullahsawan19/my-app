@@ -50,6 +50,7 @@ Here is how the `Card` component is implemented within `App.js`:
   ]}
 />
 
+```
 📂 Project Structure
 
 src/
